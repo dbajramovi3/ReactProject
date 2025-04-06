@@ -1,12 +1,9 @@
-# React + Vite
+# Find Movies You Love Without Hassle
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Single-page app built with React 19, where you can browse movies via an external API with pagination. The app includes a search feature and a Netflix-style top trending list based on user search activity. The more a movie is searched, the higher its ranking. Fully responsive and deployed on Vercel.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Tools
+- React 19
+- Appwrite: Backend for tracking user searches and recommending top 5 movies.
+- Tailwind CSS v4.0
+- Vercel: Deployment platform.
